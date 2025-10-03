@@ -21,14 +21,14 @@ El proyecto incluye **EDA**, modelado dimensional, documentación técnica y scr
 ---
 
 ## 📂 Estructura del repositorio
-
+```plaintext
 📦 DataMart_Ventas_SQLServer
  ┣ 📂 1_raw         # Archivos originales y tablas RAW
  ┣ 📂 2_staging     # Tablas staging con limpieza y ajustes
  ┣ 📂 3_dim_fact    # Tablas finales de dimensiones y hechos
  ┣ 📂 docs          # Documentación y diagramas
  ┣ 📜 README.md     # Documentación principal del proyecto
-
+```
 ---
 
 ## 📊 Modelo Estrella
