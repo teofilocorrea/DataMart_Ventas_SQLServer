@@ -57,6 +57,7 @@ Los datos se almacenan **sin transformaciones ni validaciones**, preservando el 
 |----------------------|--------------------|-------------|
 | EntityKey            | NVARCHAR(4000)     | Identificador único de la entidad. |
 | EntityLabel          | NVARCHAR(4000)     | Código o etiqueta del registro. |
+| ParentEntityKey          | NVARCHAR(4000)     | Identificador de la entidad “padre” dentro de la jerarquía organizacional. Permite establecer relaciones de dependencia o agrupación entre entidades. |
 | ParentEntityLabel    | NVARCHAR(4000)     | Identificador de la entidad superior (si aplica). |
 | EntityName           | NVARCHAR(4000)     | Nombre de la entidad. |
 | EntityDescription    | NVARCHAR(4000)     | Descripción de la entidad. |
