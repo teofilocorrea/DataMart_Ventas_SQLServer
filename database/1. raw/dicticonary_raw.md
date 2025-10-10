@@ -32,7 +32,6 @@ Los datos se almacenan **sin transformaciones ni validaciones**, preservando el 
 ### 2️⃣ `raw.date`
 | Columna              | Tipo de dato       | Descripción |
 |----------------------|--------------------|-------------|
-| DateId               | NVARCHAR(4000)     | Identificador de la fecha (fuente). |
 | DateKey              | NVARCHAR(4000)     | Fecha base o clave de calendario. |
 | DayOfMonth           | NVARCHAR(4000)     | Día del mes. |
 | MonthNumber          | NVARCHAR(4000)     | Número de mes. |
